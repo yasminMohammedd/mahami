@@ -1,0 +1,92 @@
+body{
+background: rgb(94,203,200);
+background: linear-gradient(90deg, rgba(94,203,200,0.5469538157059699) 0%, rgba(188,201,192,1) 54%, rgba(234,229,212,1) 100%);
+font-family: 'Harmattan', sans-serif;
+}
+
+.main{
+  padding: 30px;
+  width:500px;
+  display: block;
+  margin: auto;
+}
+
+
+.app_section{
+  background: white;
+  box-shadow: 10px 10px 5px  rgba(144,151,146,0.5);
+  border-radius: 1px;
+
+  border:1px solid #5FD4B5;
+  outline: none;
+  padding: 10px;
+}
+.addtask{
+display: grid;
+grid-template-columns: auto auto;
+}
+.update-task{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.addClass{
+
+  border:1px solid rgb(95,212,181,0.5);
+  outline: none;
+  font-family: 'Harmattan', sans-serif;
+}
+.task{
+    background: white;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 475px 2px;
+    border-radius: 3px;
+    border:1px solid #5FD4B5;
+    box-shadow: 10px 10px 5px  rgba(144,151,146,0.5);
+}
+.text{
+  margin: 10px;
+  font-size: 20px;
+}
+.listTask{
+margin-top: 20px;
+}
+i{
+  color:#4d2b73;
+  font-size: 18px;
+}
+i:hover{
+text-shadow: 1px 1px 5px  rgb(95,212,181,0.5);
+}
+.btn{
+
+  background-color:rgb(95,212,181,0.5);
+  color:#4d2b73;
+  padding: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Harmattan', sans-serif;
+    outline: none;
+}
+.btn:hover{
+  font-weight: bold;
+  background-color:#5FD4B5;
+  color:white;
+  padding: 5px;
+  font-family: 'Harmattan', sans-serif;
+}
+
+#today_date, #big-title{
+    color:#4d2b73;
+}
+.button-options{
+  margin-top:5px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 5px;
+}
+
+.icons{
+
+}

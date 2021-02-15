@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <title>مهامي اليومية</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Harmattan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="todo_style.css">
+
+  </head>
+  <body>
+
+    <div class="main">
+      <div class="app_section">
+        <h1 id="big-title">  مهامي اليومية :<span id="today_date"> </span></h1>
+        <form class="addtask" method="post" id="form_addtask">
+          <textarea placeholder="إضافة مهمة جديدة" cols="40" rows="2" class="addClass"></textarea>
+          <input type="submit" name="" value="إضافة المهمة" class="btn addPosition">
+        </form>
+        <div class="button-options">
+          <button type="button"  class="btn" name="button"id="clearbutton">حذف الكل</button>
+          <button type="button" class="btn" name="button" id="reversebutton">عكس الترتيب</button>
+
+        </div>
+
+
+      </div>
+      <div id="tasks" >
+
+      </div>
+
+    </div>
+
+
+
+<script src="notes-class.js"></script>
+<script src="app.js"></script>
+  </body>
+</html>
